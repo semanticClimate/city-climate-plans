@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/semanticClimate/install-guide",
+  "repoURL": "https://github.com/semanticClimate/city-climate-plans",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.vercel.app/"
 }
