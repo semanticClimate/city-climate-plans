@@ -18,7 +18,7 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>IPCC Reports and City Climate Change Plans</text></navLabel>
+      <navLabel><text>About</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
       <navPoint id="tH2966887-1">
         <navLabel><text>Project summary</text></navLabel>
