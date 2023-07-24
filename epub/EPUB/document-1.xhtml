@@ -1,184 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:epub="http://www.idpf.org/2007/ops">
   <head>
-    <meta charset="UTF-8">
     <title>IPCC Reports and City Climate Change Plans</title>
-    <link type="text/css" rel="stylesheet" href="css/book.css" />
-    <style>
-      a.fn {
-        -adapt-template: url(data:application/xml,%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%20xmlns:s=%22http://www.pyroxy.com/ns/shadow%22%3E%3Chead%3E%3Cstyle%3E.footnote-content%7Bfloat:footnote%7D%3C/style%3E%3C/head%3E%3Cbody%3E%3Cs:template%20id=%22footnote%22%3E%3Cs:content/%3E%3Cs:include%20class=%22footnote-content%22/%3E%3C/s:template%3E%3C/body%3E%3C/html%3E#footnote);
-        text-decoration: none;
-        color: inherit;
-        vertical-align: baseline;
-        font-size: 70%;
-        position: relative;
-        top: -0.3em;
-      }
-      body {
-        background-color: white;
-      }
-      section[role=doc-footnote] .footnote-counter:after {
-        content: ". ";
-      }
-      section.fnlist {
-        display: none;
-      }
-      section:footnote-content {
-        display: block;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: none;
-      }
-      .table-of-contents a {
-        display: inline-flex;
-        width: 100%;
-        text-decoration: none;
-        color: currentColor;
-        break-inside: avoid;
-        align-items: baseline;
-      }
-      .table-of-contents a::before {
-        margin-left: 1px;
-        margin-right: 1px;
-        border-bottom: solid 1px lightgray;
-        content: "";
-        order: 1;
-        flex: auto;
-      }
-      .table-of-contents a::after {
-        text-align: right;
-        content: target-counter(attr(href, url), page);
-        align-self: flex-end;
-        flex: none;
-        order: 2;
-      }
-      @page {
-        size: A4;
-        @top-center {
-          content: env(doc-title);
-        }
-        @bottom-center {
-          content: counter(page);
-        }
-      }
-      @page :first {
-        @bottom-center {
-          content: normal;
-        }
-        @top-center {
-          content: normal;
-        }
-      }
-      figure img {
-        max-width: 100%;
-      }
-      .article-title {
-        page-break-before: right;
-      }
-      h1.part {
-        page-break-before: right;
-      }
-      .copyrightpage {
-        page-break-before: left;
-      }
-      .tocpage {
-        page-break-before: right;
-      }
-      .booktitle {
-        text-align: center;
-      }
-    </style>
-    <link type="text/css" rel="stylesheet" href="css/appaloosa-city-plan.css" />
+    <link rel="stylesheet" type="text/css" href="css/document.css" />
+    <link rel="stylesheet" type="text/css" href="css/appaloosa-city-plan.css" />
   </head>
-  <body class="user-contents">
-    <div class="titlepage frontmatter">
-      <h1 class="booktitle">IPCC Reports and City Climate Change Plans</h1>
-      <h2 class="booksubtitle">Proof of concept prototype</h2>
-      <h3 class="bookauthor">by semanticClimate</h3>
-      <h4 class="bookversion">Version 1.0</h4>
-    </div>
-    <div class="copyrightpage frontmatter">
-      <p>Published by: semanticClimate</p>
-      <p>Last updated: 2023-07-24</p>
-      <p>Created: 2023-07-23</p>
-      <p>Language: English (United Kingdom)</p>
-      <p>Created by: Simon Worthington</p>
-    </div>
-    <div class="tocpage frontmatter">
-      <nav role="doc-toc">
-        <ol>
-          <li>
-            <a href="#_1_0">
-              IPCC Reports and City Climate Change Plans
-            </a>
-            <ol>
-              <li>
-                <a href="#H2966887">
-                  Project summary
-                </a>
-                <ol>
-                  <li>
-                    <a href="#H9688122">
-                      Use case: Supporting city climate plan authors
-                    </a>
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <a href="#H3319789">
-                  City climate plans
-                </a>
-                <ol>
-                  <li>
-                    <a href="#H2408854">
-                      Context for city climate plans (videos):
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#H5715858">
-                      Example city climate plans:
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#H3402659">
-                      Plan support programmes :
-                    </a>
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <a href="#H9711914">
-                  Work programme
-                </a>
-              </li>
-            </ol>
-          </li>
-        </ol>
-      </nav>
-    </div>
+  <body class="epub content" data-title="IPCC Reports and City Climate Change Plans">
     <div class="article-part article-title" id="_1_0">IPCC Reports and City Climate Change Plans</div>
     <div class="article-part article-richtext article-body">
       <p>A web service for easy knowledge access of IPCC report for use in climate plans and their supporting cultural and educational projects</p>
       <p><em>Proof of concept prototype</em></p>
       <p>A project of the open research group semanticClimate — <em>‘liberating knowledge from climate-related reports’</em>.</p>
-      <p>July 2023.&nbsp;</p>
+      <p>July 2023. </p>
       <ul id="L92468851">
         <li>
-          <p>Web: <a href="https://semanticclimate.org/">https://semanticclimate.org/</a>&nbsp;</p>
+          <p>Web: <a href="https://semanticclimate.org/">https://semanticclimate.org/</a> </p>
         </li>
         <li>
-          <p>Discussion and specifications: <a href="https://github.com/petermr/semanticClimate/discussions/32">GitHub</a>&nbsp;</p>
+          <p>Discussion and specifications: <a href="https://github.com/petermr/semanticClimate/discussions/32">GitHub</a> </p>
         </li>
         <li>
           <p>Code: <a href="https://github.com/petermr/semanticClimate">semanticClimate</a> </p>
         </li>
         <li>
-          <p>Contact:&nbsp;Simon Worthington, <a href="mailto:simon.worthington@tib.eu">simon.worthington@tib.eu</a>&nbsp;</p>
+          <p>Contact: Simon Worthington, <a href="mailto:simon.worthington@tib.eu">simon.worthington@tib.eu</a> </p>
         </li>
       </ul>
       <p>semanticClimate is led by young Indian scientists and supported by The National Institute of Plant Genome Research (NIPGR) – Delhi, and partners: Open Science Lab, TIB.</p>
       <h2 id="H2966887">Project summary</h2>
-      <p>City and regional plans are important tools to help mitigate the impacts of climate change.&nbsp;</p>
+      <p>City and regional plans are important tools to help mitigate the impacts of climate change. </p>
       <p>The project is a prototype web service that allows users to search and collate IPCC Report information related to city climate plans. Using the service users can easily compile content from the IPCC reports as referenced readers.</p>
       <p>Currently IPCC reports are not supported by search services that allow for granular indexing. The semanticClimate uses Linked Open Data (LOD) and Wikidata / Wikibase technologies to enable better visibility for the IPCC Report contents.</p>
       <p>The IPCC Reports remain as the authoritative referenced source content, with the semanticClimate acting as a search and reuse layer.</p>
@@ -188,7 +38,7 @@
       <p>Using the semanticClimate’s research instrument called the Knowledge Explorer an author could create a custom reader to share with stakeholders as an automatically typeset content package — including external citations — with linked references to the original source IPCC Reports.</p>
       <p>semanticClimate works by breaking down the IPCC Reports into the smallest parts possible, for example - sentences, acronyms, section headers, images, citations — and semantically tags each part. This tagging then allows machine readability and use of machine learning tooling, which in effect unlocks the content for findability and recombinations as search results, knowledge graphs, and in addition as full-text content which can be reused as collated and automatically typeset readers, or new packages like a glossary list that hyperlinks references all original sections of the Reports where they are used.</p>
       <h2 id="H3319789">City climate plans</h2>
-      <h3 id="H2408854">Context for city climate plans (videos):&nbsp;</h3>
+      <h3 id="H2408854">Context for city climate plans (videos): </h3>
       <ul id="L95981191">
         <li>
           <p>Munich Security Conference, <em>Wider mitigation measures</em> (2023) “<a href="https://www.youtube.com/live/wbLB6TwLIto?feature=share">To Greener Pastures: Advancing Joint Climate Action</a>”;</p>
@@ -197,7 +47,7 @@
           <p>Munich Security Conference: (2022) "<a href="https://www.youtube.com/live/2FuPxnFMdG0?feature=share&amp;t=3128">The Role of Cities: Democratic Game Changers?</a>".</p>
         </li>
       </ul>
-      <h3 id="H5715858">Example city climate plans:&nbsp;</h3>
+      <h3 id="H5715858">Example city climate plans: </h3>
       <ul id="L84809401">
         <li>
           <p><a href="https://moef.gov.in/wp-content/uploads/2017/08/Delhi-State-Action-Plan-on-Cimate-Change.pdf">Delhi State Action Plan on Climate Change</a> (2017)</p>
@@ -239,7 +89,7 @@
           <p>Participators</p>
         </li>
         <li>
-          <p>Democratic, accountable, and measurable -&nbsp;</p>
+          <p>Democratic, accountable, and measurable - </p>
         </li>
         <li>
           <p>Modelling</p>
@@ -252,7 +102,7 @@
       </ul>
       <h2 id="H9711914">Work programme</h2>
       <p>semanticClimate research and development work creates open source software to enable what we call a ClimateExplorer and on top of this we run hackathons as LearnByExploring events.</p>
-      <p>semanticClimate code link: <a href="https://github.com/petermr/semanticClimate">https://github.com/petermr/semanticClimate</a>&nbsp;</p>
+      <p>semanticClimate code link: <a href="https://github.com/petermr/semanticClimate">https://github.com/petermr/semanticClimate</a> </p>
       <ul id="L22134411">
         <li>
           <p>Proof of concept prototype with: TIB – NextGenBooks/COPIM</p>
@@ -269,13 +119,13 @@
           </ul>
         </li>
         <li>
-          <p>Berlin Hackathon (TIB) (Oct. ‘23)&nbsp;</p>
+          <p>Berlin Hackathon (TIB) (Oct. ‘23) </p>
         </li>
         <li>
-          <p>Seek funding for further prototyping development rounds and hackathons&nbsp;</p>
+          <p>Seek funding for further prototyping development rounds and hackathons </p>
         </li>
       </ul>
     </div>
-    <section class="fnlist" role="doc-footnotes"></section>
+    <section class="fnlist" role="doc-endnotes" />
   </body>
 </html>
