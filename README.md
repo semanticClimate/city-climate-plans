@@ -1,12 +1,12 @@
-# User Guide
+# IPCC Reports and City Climate Change Plans
 
-User guide for semanticClimate workflow.
+Proof of concept prototype
+
+https://semanticclimate.org/city-climate-plans/
 
 Everyone is invited to contribute to the documentation.
 
 To contribute please contact the maintainer Simon Worthington simon.worthington@tib.eu
-
-DOI: 10.5281/zenodo.7950192
 
 ## Licenses
 
@@ -15,8 +15,4 @@ and data have the more liberal [CCZero](CC0.md).
 
 ## Authors and translators
 
-* Simon Worthington 
-
-
-
-
+* Simon Worthington
