@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-GB" prefix="cc: http://creativecommons.org/ns#">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-US" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="fidus">134</dc:identifier>
     <dc:title>IPCC Reports and City Climate Change Plans</dc:title>
     <dc:creator>
       semanticClimate
     </dc:creator>
-    <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2023-07-24T17:50:57Z</meta>
-    <dc:date>2023-07-24</dc:date>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2023-07-30T10:53:57Z</meta>
+    <dc:date>2023-07-30</dc:date>
     <dc:rights>CC BY-SA 4.0</dc:rights>
     <dc:publisher>semanticClimate</dc:publisher>
     <dc:subject>climate</dc:subject>
